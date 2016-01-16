@@ -1,4 +1,11 @@
+/**
+ * 字典的构造函数
+ */
 function Dictionary() {
+  /**
+   * 字典元素的容器，以对象来表示
+   * @type {Object}
+   */
   var items = {};
 
   this.has = function(key) {
