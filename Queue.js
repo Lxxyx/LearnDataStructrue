@@ -91,4 +91,4 @@ function hotPotato(nameList, num) {
   return queue.dequeue()
 }
 
-var nameList = ['a', 'b', 'c', 'd', 'e', 'f']
+var nameList = ['小明', '小红', '小王', '小绿']
