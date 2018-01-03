@@ -130,7 +130,7 @@ function LinkedList() {
    */
   this.indexOf = function(element) {
     var current = head;
-    var index = -1;
+    var index = 0;
 
     while (current) {
       if (element === current.element) {
