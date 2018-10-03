@@ -232,7 +232,7 @@ function BinarySearchTree() {
    */
   var removeNode = function(node, key) {
     // 如果根节点不存在，则直接返回null
-    if (node === root) {
+    if (node === null) {
       return null;
     }
     // 未找到节点前，继续递归调用。
